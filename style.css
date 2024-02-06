@@ -1,0 +1,30 @@
+html 
+{
+  height: 100%;
+  width: 100%;
+}
+
+#title
+{
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+body 
+{
+  font-family: "Helvetica", "Verdana", sans-serif;
+  background-color: #afffb3;
+}
+
+#schedule 
+{
+  float: left;
+  width: 75%;
+}
+
+#green_tips
+{
+  float: right;
+  width: 25%;
+}
