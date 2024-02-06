@@ -14,28 +14,28 @@
     <h2> Schedule </h2>
     <div id = "task_list"> </div>
     <h3> Enter a new task: </h3>
-    <form onsubmit = "add_event();return false">  
-      <ul>
-        <li>
-          <label for = "start_time"> Start Time: </label>
-          <input type = "time" id = "start_time" name = "start_time">
-        </li>
-        <li>
-          <label for = "end_time"> End Time: </label>
-          <input type = "time" id = "end_time" name = "end_time">
-        </li>
-        <li>
-          <label for = "task"> Task </label>
-          <input type = "text" id = "task" name = "task">
-        </li>
-      </ul>
-      <button type = "submit"> Add Task </button>
-    </form>
   </div>
   <div id = "green_tips">
     <h2> Suggestions </h2>
     <div id = "suggestion_list"> </div>
   </div>
+  <form onsubmit = "add_event();return false">  
+    <ul>
+      <li>
+        <label for = "start_time"> Start Time: </label>
+        <input type = "time" id = "start_time" name = "start_time">
+      </li>
+      <li>
+        <label for = "end_time"> End Time: </label>
+        <input type = "time" id = "end_time" name = "end_time">
+      </li>
+      <li>
+        <label for = "task"> Task </label>
+        <input type = "text" id = "task" name = "task">
+      </li>
+    </ul>
+    <button type = "submit"> Add Task </button>
+  </form>
   <script src="script.js"></script>
 </body>
 
