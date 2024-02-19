@@ -145,6 +145,6 @@ function clear_all()
 {
   tasks_arr = "";
   suggestion_arr = "";
-  console.log("clearing...");
+  location.reload();
   window.localStorage.setItem("tasks", tasks_arr);
 }
