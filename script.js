@@ -75,7 +75,7 @@ function add_event()
   const new_task = document.createElement('div');
   const start_time = document.getElementById('start_time').value;
   const end_time = document.getElementById('end_time').value;
-  const task_value = document.getElementById('task').value;
+  const task_value = document.getElementById('task').value.concat(".");
   const schedule_string = start_time.concat("-", end_time, ": ", task_value);
   tasks_arr = tasks_arr.concat(",", schedule_string);
   const schedule_item = document.createTextNode(schedule_string);
